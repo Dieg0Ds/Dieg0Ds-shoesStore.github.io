@@ -3,12 +3,23 @@
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    
+
 }
 
 .header {
     background: #ffffff;
     box-shadow: 0px 1px 20px rgba(139, 139, 139, 0.65);
+    width: -webkit-fill-available;
+}
+
+
+.body {
+    display: flex;
+    min-width: 1280px;
+    max-width: 1280px;
+    flex-wrap: wrap;
+
+
 }
 
 nav {
@@ -41,17 +52,11 @@ nav {
 
 /* body */
 
-.body {
-    position: relative;
-width: 1280px;
-height: 3682px;
 
-background: #FFFFFF;
-}
 #estilo {
     font-family: 'Open Sans';
-    width: 596px;
-    margin: 61px 392px;
+    margin: 61px;
+    text-align: center;
     font-weight: 800;
     font-size: 60px;
     line-height: 82px;
@@ -59,5 +64,84 @@ background: #FFFFFF;
 
 .exemplo {
     display: flex;
-
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 113px;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
 }
+
+
+.exemplo2 {
+    width: 1280px;
+    height: 662px;
+    left: 0px;
+    top: 1554px;
+    padding: 50px;
+    background: #C2185B;
+    margin-bottom: 134px;
+}
+
+#OFF {
+    font-weight: 800;
+    line-height: 150px;
+    text-align: center;
+    font-weight: 800;
+}
+.imagens {
+    
+    width: 260px;
+    height: 72px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.imagens div {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 25%);
+    margin-right: 17px;
+    height: 370px;
+}
+
+.imagens div p {
+    font-weight: 600;
+    padding: 10px 10px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    padding-bottom: 0px;
+}
+
+#preço {
+    font-weight: normal;
+    display: inline;
+    font: message-box;
+}
+
+.detalhes {
+    width: 585px;
+height: 243px;
+margin-left: 127px;
+}
+.detalhes h2 {
+    font-weight: 600;
+    font-size: 39px;
+}
+.detalhes a {
+    
+    background: #C2185B;
+    font-family: 'Open Sans';
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 39px;
+}
+
+
+/* width: 226px;
+    height: 22px;
+    left: 113px;
+    top: 2047px;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px; */
