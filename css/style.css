@@ -24,8 +24,8 @@
     min-width: 1280px;
     max-width: 1280px;
     flex-wrap: wrap;
-
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav {
