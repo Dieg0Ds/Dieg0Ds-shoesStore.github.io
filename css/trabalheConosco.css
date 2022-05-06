@@ -9,19 +9,90 @@
 
 #h1 {
     color: #575757;
-    border: solid;
-    padding-right: 100px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 23px;
 }
 
 
 .section {
-    display: flex;
-    flex-direction: column;
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+.section article form {
+    color: #575757;
 }
 
 
 
 .formulario {
     color: #9B9B9B;
-    
+    margin-top: 63px;
+    margin-left: 87px;
+    margin-right: 67px;
+}
+
+.texto {
+    align-self: center;
+}
+
+.input {
+    margin-bottom: 15px;
+    width: 412px;
+    height: 26px;
+    color: #9B9B9B
+}
+
+.fomulario form label {
+    margin-top: 40px;
+}
+
+.input1 {
+    width: 15px;
+    height: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 2px;
+
+}
+
+.checklabel {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+/* .checklabel input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 2px;
+} */
+
+.checklabel1 {
+    display: flex;
+    align-items: center;
+}
+
+.radiolabel {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.radiolavel1 {
+    display: flex;
+    align-items: center;
+}
+
+#select {
+    width: 412px;
+    height: 26px;
+    margin-bottom: 15px;
 }

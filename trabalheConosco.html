@@ -21,21 +21,21 @@
 </header>
 
 <body class="body">
-    <img src="img/image 13.png"></img>
     <main>
         <section class="section">
-            <article>
+            <article class="formulario">
+                ">
                 <h1 id="h1">Faça parte do nosso time</h1>
-                <form class="formulario">
+                <form>
                     <label for="nome">Nome</label><br>
                     <input class="input" type="text" id="nome" name="nome"><br>
                     <label for="email">Email</label><br>
-                    <input type="text" id="email" name="email"><br>
+                    <input class="input" type="text" id="email" name="email"><br>
                     <label for="nome">Nome</label><br>
-                    <input type="text" id="nome" name="nome"><br>
+                    <input class="input" type="text" id="nome" name="nome"><br>
                     <label>Departamentos</label>
                     <br>
-                    <select name="departamentos">
+                    <select id="select" name="departamentos">
                         <option selected disabled>Selecione</option>]
                         <option value="Vendas">Vendas</option>
                         <option value="Marketing">Marketing</option>
@@ -49,38 +49,73 @@
                         <option value="Administrativo">Administrativo</option>
                     </select>
                     <br>
+
                     <label for="disponibilidade">Disponibilidade</label><br>
-                    <input type="checkbox" id="integral" name="disponibilidade" value="Integral">
-                    <label for="integral">integral (8h)</label>
-                    <input type="checkbox" id="meioPeriodo" name="disponibilidade" value="meioPeriodo">
-                    <label for="meioPeriodo">meio período (4h)</label>
-                    <input type="checkbox" id="freelancer" name="disponibilidade" value="freelancer">
-                    <label for="freelancer">freelancer</label>
-                    <br>
+                    <div class="checklabel">
+                        <div class="checklabel1">
+                            <input class="input1" type="checkbox" id="integral" name="disponibilidade" value="Integral">
+                            <label for="integral">integral (8h)</label>
+                        </div>
+                        <div class="checklabel1">
+                            <input class="input1" type="checkbox" id="meioPeriodo" name="disponibilidade"
+                                value="meioPeriodo">
+                            <label for="meioPeriodo">meio período (4h)</label>
+                        </div>
+                        <div class="checklabel1">
+                            <input class="input1" type="checkbox" id="freelancer" name="disponibilidade"
+                                value="freelancer">
+                            <label for="freelancer">freelancer</label>
+                        </div>
+                        <br>
+                    </div>
                     <label for="contato">Qual a melhor forma de entrarmos em contato com você?</label><br>
-                    <input type="radio" id="Email" name="contato" value="email">
-                    <label for="Email">email</label>
-                    <input type="radio" id="Ligacao" name="contato" value="Ligacao">
-                    <label for="Ligacao">ligação</label>
-                    <input type="radio" id="WhatsApp" name="contato" value="WhatsApp">
-                    <label for="WhatsApp">whatsApp</label>
-                    <br>
+                    <div class="radiolabel">
+                        <div class="radiolabel1">
+                        <input class="input1" type="radio" id="Email" name="contato" value="email">
+                        <label for="Email">email</label>
+                    </div>
+                    <div class="radiolabel1">
+                        <input class="input1" type="radio" id="Ligacao" name="contato" value="Ligacao">
+                        <label for="Ligacao">ligação</label>
+                    </div>
+                    <div class="radiolabel1">
+                        <input class="input1" type="radio" id="WhatsApp" name="contato" value="WhatsApp">
+                        <label for="WhatsApp">whatsApp</label>
+                    </div>
+                        <br>
+                    </div>
                     <label for="Mensagem">mensagem</label><br>
                     <textarea for="Mensagem" id="Mensagem" cols="50" rows="3">Escreva aqui sua mensagem...</textarea>
                     <br>
                     <label for="curriculo">Curriculo:</label>
-                    <input type="file" name="curriculo" accept=".pdf" >
+                    <input type="file" name="curriculo" accept=".pdf">
                     <br><br>
                     <button>Enviar</button>
-                    
-                    
+
+
                 </form>
             </article>
-            <article>
+            <article class="texto">
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis optio, ea sit cupiditate natus
                     necessitatibus recusandae suscipit quam aspernatur incidunt aperiam fugiat nobis ullam cumque
                     officiis dolorum quos. Velit, magni?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eos magnam quae rem nemo nesciunt
+                    voluptatum fugit temporibus, incidunt nisi eligendi fuga consequuntur aliquid facere in repellendus
+                    consequatur modi blanditiis?
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis optio, ea sit cupiditate natus
+                    necessitatibus recusandae suscipit quam aspernatur incidunt aperiam fugiat nobis ullam cumque
+                    officiis dolorum quos. Velit, magni?
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis optio, ea sit cupiditate natus
+                    necessitatibus recusandae suscipit quam aspernatur incidunt aperiam fugiat nobis ullam cumque
+                    officiis dolorum quos. Velit, magni?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ad fuga quaerat quibusdam sint,
+                    blanditiis ipsam vel odio, soluta consectetur, et non aspernatur nihil. Quos quaerat fugiat quidem
+                    doloremque iste.
                 </p>
 
             </article>
