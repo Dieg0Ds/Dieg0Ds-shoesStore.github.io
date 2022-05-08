@@ -147,8 +147,9 @@ nav {
 }
 
 .footer {
-    margin-top: 116px;
+    margin-top: 57px;
     width: 100%;
+    min-width: 1280px;
     height: 248px;
     background: #C2185B;
     display: flex;

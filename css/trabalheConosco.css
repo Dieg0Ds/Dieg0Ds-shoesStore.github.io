@@ -19,6 +19,8 @@
 .section {
     display: inline-flex;
     flex-wrap: nowrap;
+    align-items: center;
+    color: #9B9B9B;
 }
 
 .section article form {
@@ -36,13 +38,18 @@
 
 .texto {
     align-self: center;
+    text-align: left;
+    color: #575757;
+    position: relative;
+    bottom: 31px;
 }
 
 .input {
     margin-bottom: 15px;
-    width: 412px;
+    width: 537px;
     height: 26px;
-    color: #9B9B9B
+    color: #9B9B9B;
+    border-color: #9B9B9B;
 }
 
 .fomulario form label {
@@ -78,6 +85,15 @@
 .checklabel1 {
     display: flex;
     align-items: center;
+    font-size: 14px;
+}
+
+#checkposition {
+    margin-left: -174px;
+}
+
+#checkposition1 {
+    margin-left: -174px;
 }
 
 .radiolabel {
@@ -86,13 +102,42 @@
     justify-content: space-between;
 }
 
-.radiolavel1 {
+.radiolabel1 {
     display: flex;
     align-items: center;
+    font-size: 14px;
+}
+
+#radioposition {
+    position: relative;
+    right: 111px;
+}
+
+#radioposition1 {
+    position: relative;
+    right: 191px;
 }
 
 #select {
-    width: 412px;
+    width: 537px;
     height: 26px;
     margin-bottom: 15px;
+}
+
+.textarea {
+    color:#9b9b9b;
+    border-color: #9b9b9b;
+}
+
+.curriculo {
+    margin-right: 10px;
+}
+
+#button {
+    width: 537px;
+    height: 33px;
+    background-color: #C2185B;
+    color: white;
+    font-weight: bold;
+    border-color: white;
 }
