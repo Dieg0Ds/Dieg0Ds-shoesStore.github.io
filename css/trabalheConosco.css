@@ -42,6 +42,7 @@
     color: #575757;
     position: relative;
     bottom: 31px;
+    padding-right: 84px;
 }
 
 .input {
@@ -125,8 +126,9 @@
 }
 
 .textarea {
-    color:#9b9b9b;
+    color: #9b9b9b;
     border-color: #9b9b9b;
+    width: 537px;
 }
 
 .curriculo {
@@ -140,4 +142,11 @@
     color: white;
     font-weight: bold;
     border-color: white;
+    transition: all 3s;
 }
+
+#button:hover {
+    background-color: white;
+    color: #C2185B
+}
+
