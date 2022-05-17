@@ -2,35 +2,29 @@
 
 * {
     box-sizing: border-box;
-    
+
     font-family: 'Open Sans', sans-serif;
 
 }
 
 .header {
-    background: white;
+    background: lavender;
     box-shadow: 0px 2px 5px rgb(139 139 139 / 0.65);
     width: 100%;
-
 }
 
-.body {
-    display: flex;
-    min-width: 1280px;
-    max-width: 1280px;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-}
+.body {}
 
-.main {
-    max-width: 1280px;
-    min-width: 1280px;
+main {
+    width: 1280px;
+    margin: auto;
+    margin-bottom: 57px;
 }
 
 nav {
     min-width: 1280px;
     max-width: 1280px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,16 +103,16 @@ nav {
 
 .imagens div p {
     font-weight: 600;
-    padding: 10px 10px;
     font-family: 'Open Sans';
     font-size: 15px;
     padding-bottom: 0px;
 }
 
 #preço {
-    font-weight: normal;
     display: inline;
     font: message-box;
+    position: relative;
+    bottom: 15px;
 }
 
 .detalhes {
@@ -150,25 +144,39 @@ nav {
     margin-top: 32px;
 }
 
-.footer {
-    margin-top: 57px;
-    width: 100%;
-    min-width: 1280px;
+footer {
+    width: 1280px;
     height: 248px;
+    margin: auto;
     background: #C2185B;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
 
-.footer div {
+.footer section {
+    width: 1280px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer section div {
+
     max-width: 250px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     color: white
+}
+
+#divPosition1 {
+    position: relative;
+    top: 15px;
+}
+
+#divPosition2 {
+    position: relative;
+    top: 25px;
 }
 
 .footer div img {
